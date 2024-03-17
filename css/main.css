@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+nav div svg {
+  margin: 5px 10px;
+}
+nav div button {
+  max-height: 50%;
+  max-width: 50%;
+}/*# sourceMappingURL=main.css.map */
