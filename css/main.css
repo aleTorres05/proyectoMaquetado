@@ -2,15 +2,57 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+nav img {
+  height: 50px;
+}
 nav div {
   width: 100%;
   display: flex;
   justify-content: flex-end;
 }
 nav div svg {
-  margin: 5px 10px;
+  margin: 7px 10px;
 }
 nav div button {
-  max-height: 50%;
+  max-height: 80%;
   max-width: 50%;
+  border-radius: 10px;
+  border: 2px solid rgb(70, 3, 255);
+  background: none;
+  cursor: pointer;
+  padding: 5px;
+  color: rgb(70, 3, 255);
+  text-align: center;
+  font-size: 100%;
+}
+
+.contenedor {
+  display: flex;
+  height: 1000px;
+  width: 100%;
+}
+
+main {
+  background-color: green;
+  flex: 1;
+  flex-grow: 4;
+}
+
+.barraIzq {
+  background-color: red;
+}
+
+.barraDer {
+  background-color: blue;
+}
+
+@media screen and (min-width: 1024px) {
+  .barraIzq {
+    flex: 1;
+    flex-grow: 2;
+  }
+  .barraDer {
+    flex: 1;
+    flex-grow: 2;
+  }
 }/*# sourceMappingURL=main.css.map */
