@@ -2,19 +2,26 @@ nav {
     display: flex;
     justify-content: space-around;
     img {
-        
+       height: 50px; 
     }
     div {
         width: 100%;
         display: flex;
         justify-content: flex-end;
         svg {
-            margin: 5px 10px;
+            margin: 7px 10px;
 
         }
         button {
-            max-height: 50%;
+            max-height: 80%;
             max-width: 50%;
+            border-radius: 10px;
+            border: 2px solid rgb(70, 3, 255);
+            background: none;
+            cursor: pointer;
+            padding: 5px;
+            color: rgb(70, 3, 255);text-align: center;
+            font-size: 100%;
         }
     }
 }
