@@ -33,9 +33,41 @@ nav div button {
 }
 
 main {
-  background-color: green;
+  background-color: white;
   flex: 1;
   flex-grow: 4;
+}
+main .top_buttons_container {
+  display: flex;
+  background-color: lightgray;
+  gap: 5%;
+  padding-left: 5%;
+}
+main .top_buttons_container .navigation_buttons {
+  height: 30px;
+  padding-top: 10px;
+}
+
+.main_articles {
+  display: flex;
+  background-color: brown;
+  height: 40%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 3%;
+  margin-left: 3%;
+  border-radius: 2%;
+  max-width: 100%;
+}
+.main_articles .image1 {
+  -o-object-fit: fill;
+     object-fit: fill;
+  max-width: 100%;
+  min-width: 100%;
+  flex-direction: column;
+  padding-bottom: 95px;
+  border-radius: 2%;
+  height: 200px;
 }
 
 .barraIzq {
