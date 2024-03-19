@@ -71,14 +71,12 @@ main .top_buttons_container .navigation_buttons {
 }
 
 .barraIzq .cajaNotas {
-  background-color: plum;
   display: none;
   text-align: justify;
 }
 .barraIzq .cajaNotas .nuevaC {
   background: none;
-  max-height: 50px;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .barraDer .flexContainer {
@@ -169,11 +167,6 @@ section .botonNew:hover {
   font-size: 14.5px;
 }
 
-@media screen and (max-width: 768px) {
-  .barraIzq .cajaNotas {
-    background-color: aqua;
-  }
-}
 @media screen and (min-width: 1024px) {
   .barraIzq {
     flex: 1;
@@ -181,6 +174,7 @@ section .botonNew:hover {
   }
   .barraIzq .cajaNotas {
     display: contents;
+    max-width: 80%;
   }
   .barraDer {
     flex: 1;
