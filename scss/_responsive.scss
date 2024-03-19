@@ -17,5 +17,9 @@
     .barraDer {
         flex: 1;
         flex-grow: 2;
+        .flexContainer{
+            display: contents;
+        }
     }
+    
 }
