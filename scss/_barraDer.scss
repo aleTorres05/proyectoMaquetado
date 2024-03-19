@@ -1,4 +1,67 @@
+
 .barraDer {
     // Solo esta el bg color para ejemplificar los contenedores *REMOVER*
-    background-color: blue;
+   
+    .flexContainer{
+        
+        display: none;
+        text-align: justify;
+        
+        }
+    
+}
+
+
+.parteUno {
+    @include estructuraFormaUno();
+}
+.parteDos {
+    @include estructuraDeFormas();
+}
+
+.tresComentarios {
+    color: grey;
+}
+.parteTres{
+    @include estructuraDeFormas();
+}
+.dosComentarios {
+    color: grey;
+}
+.parteCuatro{
+    @include estructuraDeFormas();
+}
+
+    
+
+
+
+section{
+    .botonNew{
+        @include estructuraBotonUno();
+    }
+}
+section{
+    .botonNew{
+        &:hover{
+            @include hoverBotonNew();
+        }
+    }
+}
+
+.weCoded{
+    @include estiloDeLetraWeCoded();
+}
+.parrafoUno{
+    @include estiloDeLetraParrafos();
+}
+.parrafoDos{
+    @include estiloDeLetraParrafos();
+    
+}
+.parrafoTres{
+    @include estiloDeLetraParrafos();
+}
+.parrafoCuatro{
+    @include estiloDeLetraParrafos();
 }
