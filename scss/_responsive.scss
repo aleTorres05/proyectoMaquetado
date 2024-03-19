@@ -1,7 +1,18 @@
+@media screen and (max-width:768px){
+    .barraIzq{
+        .cajaNotas {
+            background-color: aqua;
+        }
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .barraIzq {
         flex: 1;
         flex-grow: 2;
+        .cajaNotas{
+            display: contents;
+        }
     }
     .barraDer {
         flex: 1;
