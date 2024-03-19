@@ -70,9 +70,6 @@ main .top_buttons_container .navigation_buttons {
   height: 200px;
 }
 
-.barraIzq {
-  background-color: red;
-}
 .barraIzq .cajaNotas {
   background-color: plum;
   display: none;
@@ -84,8 +81,92 @@ main .top_buttons_container .navigation_buttons {
   max-width: 80%;
 }
 
-.barraDer {
-  background-color: blue;
+.barraDer .flexContainer {
+  display: none;
+  text-align: justify;
+}
+
+.parteUno {
+  height: 240PX;
+  width: 210px;
+  background-color: rgb(247, 242, 242);
+  border: 0.01px solid rgb(227, 212, 212);
+  border-radius: 4px;
+}
+
+.parteDos {
+  height: 80px;
+  width: 210px;
+  background-color: rgb(247, 242, 242);
+  border: 0.01px solid rgb(227, 212, 212);
+  position: relative;
+  border-radius: 4px;
+}
+
+.tresComentarios {
+  color: grey;
+}
+
+.parteTres {
+  height: 80px;
+  width: 210px;
+  background-color: rgb(247, 242, 242);
+  border: 0.01px solid rgb(227, 212, 212);
+  position: relative;
+  border-radius: 4px;
+}
+
+.dosComentarios {
+  color: grey;
+}
+
+.parteCuatro {
+  height: 80px;
+  width: 210px;
+  background-color: rgb(247, 242, 242);
+  border: 0.01px solid rgb(227, 212, 212);
+  position: relative;
+  border-radius: 4px;
+}
+
+section .botonNew {
+  background-color: rgb(248, 188, 7);
+  color: rgb(130, 86, 5);
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+section .botonNew:hover {
+  background-color: white;
+  color: rgb(248, 188, 7);
+  border: 1px solid rgb(130, 86, 5);
+  border-radius: 4px;
+  transform: scale(1.2);
+}
+
+.weCoded {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.parrafoUno {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14.5px;
+}
+
+.parrafoDos {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14.5px;
+}
+
+.parrafoTres {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14.5px;
+}
+
+.parrafoCuatro {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14.5px;
 }
 
 @media screen and (max-width: 768px) {
@@ -104,5 +185,8 @@ main .top_buttons_container .navigation_buttons {
   .barraDer {
     flex: 1;
     flex-grow: 2;
+  }
+  .barraDer .flexContainer {
+    display: contents;
   }
 }/*# sourceMappingURL=main.css.map */
