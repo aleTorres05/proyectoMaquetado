@@ -99,6 +99,7 @@ nav div button {
 .main .main_articles .postInfo .reactions .multiple_reactions_icons_container {
   position: relative;
   width: 20%;
+  margin-right: 30px;
 }
 .main .main_articles .postInfo .reactions .multiple_reactions_icons_container .reactionImage {
   position: absolute;
