@@ -1,67 +1,45 @@
-
 .barraDer {
-    // Solo esta el bg color para ejemplificar los contenedores *REMOVER*
-   
-    .flexContainer{
-        
-        display: none;
-        text-align: justify;
-        
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 50%;
+    margin-top: 36px;
+    .rightMenu {
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 15px;
+        margin-bottom: 0%;
+        height: 150px;
+        .parrafoUno {
+            font-size: 10px
         }
-    
-}
-
-
-.parteUno {
-    @include estructuraFormaUno();
-}
-.parteDos {
-    @include estructuraDeFormas();
-}
-
-.tresComentarios {
-    color: grey;
-}
-.parteTres{
-    @include estructuraDeFormas();
-}
-.dosComentarios {
-    color: grey;
-}
-.parteCuatro{
-    @include estructuraDeFormas();
-}
-
-    
-
-
-
-section{
-    .botonNew{
-        @include estructuraBotonUno();
+        p {
+            font-size: 15px;
+        }       
     }
-}
-section{
-    .botonNew{
-        &:hover{
-            @include hoverBotonNew();
+    .guides {
+        .trendingGuides {
+            text-align: center;
+            .guides {
+                p {
+                    margin: 50px 40px;
+                }
+            }
+        }
+    }
+
+    .queries {
+        .recent {
+            h3 {
+                margin-left: 45px;
+            }
+            .queried {
+                p {
+                    margin: 50px 40px;
+                }
+            }
         }
     }
 }
 
-.weCoded{
-    @include estiloDeLetraWeCoded();
-}
-.parrafoUno{
-    @include estiloDeLetraParrafos();
-}
-.parrafoDos{
-    @include estiloDeLetraParrafos();
-    
-}
-.parrafoTres{
-    @include estiloDeLetraParrafos();
-}
-.parrafoCuatro{
-    @include estiloDeLetraParrafos();
-}
