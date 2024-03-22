@@ -1,13 +1,125 @@
 .barraIzq {
-    // Solo esta el bg color para ejemplificar los contenedores *REMOVER*
-   
+    flex: 1;
+    flex-grow: 1;
+    margin-right: 10px;
     .cajaNotas{
-        display: none;
+        display: contents;    
         text-align: justify;
+        margin: 4px auto;
+
+        div {
+            padding: 10px;
+            background-color: white;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            p{
+                font-size: 10px;
+            }
+            width: 90%;
+            .buttonN {
+                box-shadow: none;
+            }
+        
+        }
+
         .nuevaC{
             background: none;
-            max-width: 100%;
+            border: 2px solid rgb(152, 108, 255);
+            color: rgb(152, 108, 255);
+            border-radius: 5px;
+            width: 100%;
+            height: 30px;
+
+        }
+        .iniciar {
+            background: none;
+            border: 0cap;
+            width: 200px;
+            margin-bottom: 5px;
+
+
         }
     }
+    .options {
+        .listado1 {
+            padding-top: 15px;
 
+        }
+
+        ul {
+            list-style: none; 
+            padding: 0;
+
+
+            li {
+                margin-bottom: 15px; 
+                padding: 0;
+                a {
+                    text-decoration: dashed;
+                    color: black;
+                }
+            }
+            
+        }
+        svg {
+            max-width: 40px;
+            max-height: 20px;
+        }
+    }
+    .other {
+        .listado2 {
+            padding-top: 15px;
+
+        }
+
+        ul {
+            list-style: none; 
+            padding: 0;
+
+
+            li {
+                margin-bottom: 15px; 
+                padding: 0;
+                a {
+                    text-decoration: dashed;
+                    color: black;
+                }
+            }
+            
+        }
+        svg {
+            max-width: 40px;
+            max-height: 20px;
+        }
+    }
+    .listaRedes {
+        .redesSociales {
+            margin-top: 15px;
+            
+            a {
+                text-decoration: dashed;
+                margin-right: 6px;
+            }
+        
+        }     
+    }
+    .popularTags {
+        display: flex;
+        width: 100%;
+        height: 40%;
+        margin-top: 15px;
+        display: inline;
+        .tags {
+            overflow: scroll;
+            width: 100%;
+            height: 30%;
+            
+            a {
+                text-decoration: dashed;
+                color: black;
+                display: block;
+                margin-bottom: 25px;
+                margin-left: 10px;
+            }
+        }
+    }
 }
